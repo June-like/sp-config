@@ -18,7 +18,7 @@ eureka:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
 
-#zuul:
+#zuul:   最后启动   才能自动配置       -----------如果不想最后启动，需要打开下面手动配置
  # routes:
  #   item-service: /item-service/**
  #   user-service: /user-service/**
